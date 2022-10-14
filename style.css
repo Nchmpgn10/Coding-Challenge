@@ -1,0 +1,73 @@
+*{
+ margin: 0;
+ box-sizing: border-box;
+ padding: 0;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteiner{
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 900px;
+    height: 550px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.content-top{
+    text-align: center;
+}
+
+.content-top img{
+    width: 150px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.title-top{
+    padding: 10px;
+    font-size: 25px;
+    color:limegreen;
+}
+
+.bars{
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    width:800px ;
+    margin: auto;
+}
+
+.users{
+    color: white;
+    margin:20px  50px;
+}
+
+.indirizzo, .charge{
+    font-size: 12px;
+} 
+
+.users #battery_1{
+    background-color: orange;
+    width: 300px;
+    height: 30px;
+    border-radius: 5%;
+}
+
+.users #battery_2{
+    background-color:green;
+    width: 500px;
+    height: 30px;
+    border-radius: 5%;
+}
+
+.users #battery_3{
+    background-color: red;
+    width: 80px;
+    height: 30px;
+    border-radius: 5%;
+}
